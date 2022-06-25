@@ -3,6 +3,6 @@ name: UC Irvine, Donald Bren School of Information and Computer Sciences
 role: course
 photo: UCI.png
 ---
-Tu&Thu 9:30-10:50am ELH 110
+*Prof. Crista Lopes*
 
-Summer 2022
+Fall 2021

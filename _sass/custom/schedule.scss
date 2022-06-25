@@ -63,7 +63,8 @@
     height: 40px;
     justify-content: center;
     margin: 0;
-    font-family: aktiv-grotesk, sans-serif;
+    //font-family: aktiv-grotesk, sans-serif;
+    font-family: 'Fraunces';
   }
 
   .schedule-events {
@@ -85,7 +86,7 @@
     width: 100%;
 
     .name {
-      @extend .fs-3, .fw-700;
+      @extend .fs-3, .fw-500;
     }
 
     .time,

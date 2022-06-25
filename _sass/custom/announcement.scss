@@ -1,4 +1,7 @@
 .announcement {
+  border: 1px solid #212529;
+  background: #FFFAFA;
+  box-shadow: none;
   @extend %card;
 
   h1, h2 {
@@ -6,6 +9,6 @@
   }
 
   .announcement-meta {
-    @extend .text-epsilon;
+    font-size: 12px;
   }
 }

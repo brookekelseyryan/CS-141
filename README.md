@@ -1,13 +1,13 @@
 ---
 layout: home
-title: 'ICS 33: Intermediate Programming'
+title: 'CS 121/ INF 141: Information Retrieval'
 nav_exclude: true
 permalink: index.html
 seo:
   type: Course
-  name: 'ICS 33: Intermediate Programming, Summer 2022'
+  name: 'CS 121/ INF 141: Information Retrieval, Fall 2021'
 ---
-# ICS 33: Intermediate Programming
+# CS 121/ INF 141: Information Retrieval
 
 {% assign instructors = site.staffers | where: 'role', 'course' %}
 {% for staffer in instructors %}
@@ -15,11 +15,11 @@ seo:
 {% endfor %}
 
 ## Catalogue description
-Introduces Python syntax and semantics for fundamental programming concepts. Constructing programs for varied problems and environments. Using library modules for applications such as graphics, sound, GUI, database, Web, and network programming. Accelerated course for students with previous programming background.
+An introduction to information retrieval including indexing, retrieval, classifying, and clustering text and multimedia documents.
+
 
 {% if site.announcements.size != 0 %}
 ## Announcements
-Course announcements will be posted here. Please be sure to check this page regularly for any updates. 
 
 {% assign announcements = site.announcements | reverse %}
 {% for announcement in announcements %}
